@@ -26,7 +26,7 @@ app.use(bodyParser.json({ type: '*/*'}));
 router(app);
 
 // server
-const port = process.env.PORT || 3090;
+const port = process.env.PORT || 5005;
 const server = http.createServer(app);
 server.listen(port);
 console.log('Server listening on:', port);
